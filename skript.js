@@ -1,11 +1,16 @@
 /*========== menu icon navbar ==========*/
+
 let menuIcon = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
+
+let body = document.querySelector('body')
+const moon = document.querySelector('.bx-moon')
 
 menuIcon.onclick = () => {
     menuIcon.classList.toggle('bx-x');
     navbar.classList.toggle('active');
 };
+
 
 
 /*========== scroll sections active link ==========*/
@@ -65,6 +70,7 @@ darkModeIcon.onclick = () => {
     darkModeIcon.classList.toggle('bx-sun');
     document.body.classList.toggle('dark-mode');
 };
+
 
 
 /*========== scroll reveal ==========*/
