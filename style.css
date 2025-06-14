@@ -41,11 +41,10 @@ html {
 }
 
 .header {
-    position: fixed;
+    position: sticky;
+    top: 0;
     background-color: #754ef9 !important;
     box-shadow: 0px 1px 4px 0px #00000040;
-    top: 0;
-    left: 0;
     width: 100%;
     padding: 2rem 7%;
     background: transparent;
@@ -117,7 +116,7 @@ html {
 
 section {
     min-height: 100vh;
-    padding: 10rem 7% 2rem;
+    padding: 49px 7% 2rem;
 }
 
 .home {
@@ -282,9 +281,9 @@ section {
     right: 0;
     width: 0;
     height: 0;
-    border-top: 50vh solid var(--main-color);
+    border-top: 55vh solid var(--main-color);
     border-right: 384px solid var(--main-color);
-    border-bottom: 50vh solid var(--main-color);
+    border-bottom: 52vh solid var(--main-color);
     border-left: 384px solid transparent;
 }
 
